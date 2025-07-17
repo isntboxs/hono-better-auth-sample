@@ -4,6 +4,7 @@ import { env } from '@/utils/env'
 const port = env.PORT
 
 export default {
-  port,
   fetch: app.fetch,
+  hostname: '0.0.0.0',
+  port,
 }

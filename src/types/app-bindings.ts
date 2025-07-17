@@ -1,9 +1,10 @@
 import type { PinoLogger } from 'hono-pino'
-import type { AuthType } from '@/lib/auth/types'
+import type { session, user } from '@/lib/auth/types'
 
 export interface AppBindings {
   Variables: {
     logger: PinoLogger
-    auth: AuthType
+    user: user | null
+    session: session | null
   }
 }
