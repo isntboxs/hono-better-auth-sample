@@ -1,0 +1,19 @@
+{
+  "name": "hono-better-auth-sample",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "hono": "^4.8.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.17.0",
+    "@types/bun": "latest",
+    "eslint": "^9.31.0",
+    "eslint-plugin-format": "^1.0.1",
+    "prettier": "^3.6.2"
+  }
+}
